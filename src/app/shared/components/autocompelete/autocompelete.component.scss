@@ -1,0 +1,70 @@
+@import "src/general";
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   font-size: 18px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 18px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 18px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 18px;
+  }
+  :host{
+    width: 30%;
+  }
+.searchbox-container{
+    position: relative;
+}
+.search-box-input{
+    flex: 1;
+    min-width: 60px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 12px;
+    color:$color-pink;
+    width: 100%;
+    height:50px;
+    transition: all .3s ease;
+    border-radius: 15px
+}
+.search-btn{
+    position: absolute;
+    left: 5px;
+    border-radius: 10px;
+    bottom: 5px;
+    top: 5px;
+    padding: 10px;
+    background: $color-pink;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+}
+.search-btn--icon{
+  display: block;
+    background-image:url('src/assets/icons/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain ;
+    width: 30px;
+    height:20px;
+}
+.searchbox--pos{
+    position: relative;
+}
+.autocomplete-list{
+    background-color: $color-white;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    ul li:hover{
+        width: 90%;
+        background-color: #eee;
+        cursor: pointer;
+    }
+
+}

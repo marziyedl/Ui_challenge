@@ -1,0 +1,26 @@
+@import 'src/general';
+.footer{
+  background-color: #003f3f ;
+  padding: 30px $container-padding;
+  width: 100%;
+  z-index: 2;
+  color: #fff;
+}
+.site-footer__title{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  width: 88%;
+  display: block;
+  margin-right: 37px;
+}
+.menu-row{
+  width: 20%;
+  ul li{
+    padding: 5px 0;
+  }
+}
+.menu-items__text{
+  color:#fff;
+  font-size: 13px;
+
+}

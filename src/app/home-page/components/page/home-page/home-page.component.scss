@@ -1,0 +1,24 @@
+@import 'src/general';
+.search-box-container{
+    background-color: #ddd;
+    height: calc(100vh - 95px);
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: $desktop-breakpoint){
+  .mobile-view{
+    display: none;
+  }
+  .desktop-view{
+   display: block;
+ }
+ }
+@media (max-width: $mobile-breakpoint){
+ .mobile-view{
+   display: block;
+ }
+ .desktop-view{
+  display: none;
+}
+}
+

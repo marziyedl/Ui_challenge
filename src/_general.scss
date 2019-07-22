@@ -1,0 +1,16 @@
+$color-pink :#b30753;
+$color-white :#fff;
+$container-padding :10%;
+$desktop-breakpoint:1200px ;
+$mobile-breakpoint:1199px ;
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+@mixin boxShadow($property) {
+  -webkit-box-shadow:$property;
+  -moz-box-shadow:$property;
+  box-shadow:$property;
+}

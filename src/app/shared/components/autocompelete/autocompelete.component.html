@@ -1,0 +1,16 @@
+<div class="searchbox-container">
+    <div class="searchbox--pos">
+<input class="search-box-input" [(ngModel)]="selectedItemTitle"  (keyup)="FetchItemDetailsSearch(selectedItemTitle)" [placeholder]="placeHolderText" />
+<a class="search-btn">
+    <i class="search-btn--icon"></i>
+</a>
+</div>
+<div class="autocomplete-list" *ngIf="show">
+    <ul>
+        <li (click)="selectedItem(showlist)">
+            {{showlist}}
+        </li>
+    </ul>
+</div>
+</div>
+

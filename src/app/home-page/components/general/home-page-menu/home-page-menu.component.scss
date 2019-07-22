@@ -1,0 +1,23 @@
+@import "src/general";
+
+.flex-menu{
+    display:flex;
+    flex-direction: row;
+}
+.menu-items {
+    white-space: nowrap;
+    color: #333333;
+    font-size: 13px;
+    margin-left: 5%;
+    border-bottom: 1px solid transparent;
+    transition: all .5s ease;
+    position: relative;
+    padding-bottom: 5px;
+
+    &:hover {
+        border-bottom: 1px solid $color-pink;
+        text-decoration-color: $color-pink;
+        color:$color-pink;
+     }
+}
+

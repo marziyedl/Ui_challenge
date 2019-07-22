@@ -1,0 +1,16 @@
+
+<div class="dropdown">
+  <div  class="dropbtn" (click)="show = !show" >
+<span *ngIf="selectedItemTitle ==null">
+  شهر خود را انتخاب کنید
+  <i class="caret-icon"></i>
+</span>
+<span *ngIf="selectedItemTitle !=null">
+{{this.selectedItemTitle}}
+</span>
+  </div>
+  <div id="myDropdown" class="dropdown-content" *ngIf="show">
+    <div >
+<a (click)="selectedItem(cities.nameFa)">{{cities.nameFa}}</a>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+
+
+@font-face {
+  font-family: yekan;
+  src: url('src/assets/yekan-font/yekan-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%
+}
+
+body {
+  font-size: 12px;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  background-color: #fff;
+  font-family: yekan;
+  position: relative;
+  height: 100%;
+  color: #333;
+}
+
+* {
+  font-family: yekan;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+input {
+  outline: 0;
+}
+.flex-box {
+  display: flex;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.vertical-center {
+  align-items: center;
+}
+.horizontal-center{
+  justify-content: center;
+}
+.self-center{
+  align-self: center;
+}
+
+
+

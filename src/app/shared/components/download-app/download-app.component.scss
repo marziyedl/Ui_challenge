@@ -1,0 +1,42 @@
+@import "src/general";
+
+:host{
+  position: relative;
+}
+
+.crank-block{
+  height: 100px;
+  clear: both;
+  transform: rotate(-7deg);
+  background-color: #fff;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 85%;
+
+}
+.appinfo__img--index{
+  z-index: -2;
+  position: relative;
+}
+.appinfo__img{
+  width: 200px;
+  margin: 10px;
+}
+.download-app__text{
+  text-align: center;
+  margin-left: 20px;
+  z-index: 2;
+h1{
+  color : $color-pink;
+  padding: 10px;
+}
+h3{
+  columns: #c5c5cc;
+  padding: 10px;
+}
+}
+.downloadapp__icons{
+margin: 10px;
+}

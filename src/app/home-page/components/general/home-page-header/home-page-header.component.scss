@@ -1,0 +1,14 @@
+@import "src/general";
+
+.header-container{
+    justify-content: space-between;
+    padding:5px 40px;
+    position: relative;
+    z-index: 2;
+    @include boxShadow(0px 3px 15px -5px rgba(0,0,0,0.59));
+
+}
+
+
+
+
