@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { DownloadAppComponent } from './components/download-app/download-app.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MobileFooterComponent } from './components/mobile-footer/mobile-footer.component';
 
 
 
@@ -17,6 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
     DropdownComponent,
     DownloadAppComponent,
     FooterComponent,
+    MobileFooterComponent,
 
   ],
   exports:[
@@ -24,7 +26,9 @@ import { FooterComponent } from './components/footer/footer.component';
     AutocompeleteComponent,
     DropdownComponent,
     DownloadAppComponent,
-    FooterComponent
+    FooterComponent,
+    MobileFooterComponent,
+
 
   ],
   imports: [

@@ -40,3 +40,11 @@ h3{
 .downloadapp__icons{
 margin: 10px;
 }
+@media (max-width: $mobile-breakpoint){
+  .download-app-block--direction{
+    flex-direction: column
+  }
+  .appinfo__img--index {
+    align-self: center
+  }
+}

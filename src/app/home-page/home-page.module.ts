@@ -10,6 +10,11 @@ import { HomePageSearchBoxComponent } from './components/general/home-page-searc
 import { HomePageRoutingModule } from './home-page-routing.module';
 import { HomePriceEvaluationComponent } from './components/general/home-price-evaluation/home-price-evaluation.component';
 import { HomePageFlexContainerComponent } from './components/general/home-page-flex-container/home-page-flex-container.component';
+import { MobileHomePageHeaderComponent } from './components/general/mobile-home-page-header/mobile-home-page-header.component';
+import { MobileHomePageSearchBoxComponent } from './components/general/mobile-home-page-search-box/mobile-home-page-search-box.component';
+import { MobileHomePageMenuComponent } from './components/general/mobile-home-page-menu/mobile-home-page-menu.component';
+import { MobileHomePageFlexBoxComponent } from './components/general/mobile-home-page-flex-box/mobile-home-page-flex-box.component';
+import { MobileHomePageEvalutionComponent } from './components/general/mobile-home-page-evalution/mobile-home-page-evalution.component';
 
 
 
@@ -21,7 +26,13 @@ import { HomePageFlexContainerComponent } from './components/general/home-page-f
     SignupButtonComponent,
      HomePageSearchBoxComponent,
      HomePriceEvaluationComponent,
-     HomePageFlexContainerComponent],
+     HomePageFlexContainerComponent,
+     MobileHomePageHeaderComponent,
+     MobileHomePageMenuComponent,
+     MobileHomePageSearchBoxComponent,
+     MobileHomePageFlexBoxComponent,
+     MobileHomePageEvalutionComponent,
+     ],
   imports: [
     CommonModule,
     HomePageRoutingModule,

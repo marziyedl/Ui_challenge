@@ -1,0 +1,78 @@
+@import 'src/general';
+%box-backgound {
+  background-color: #dddddd;
+}
+%box-border-radius{
+  border-radius: 10px;
+}
+.block
+{
+  padding: 20px $container-padding;
+}
+.flex-container{
+  margin:20px 0;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-end;
+
+}
+.box-block{
+  height: 100%;
+  width:100%;
+  margin-right: .5%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap
+
+}
+.box-block > div:first-child{
+  @extend %box-backgound,%box-border-radius;
+  width: 100%;
+  height: 400px;
+
+}
+.box-block > div:nth-child(2){
+  @extend %box-backgound,%box-border-radius;
+  width: 50%;
+  height: 200px;
+  margin-top: 1%;
+
+
+}
+.box-block > div:nth-child(3){
+  @extend %box-backgound,%box-border-radius;
+  width: 49%;
+  height: 200px;
+  margin-top: 1%;
+  margin-left: 1%;
+
+}
+.box-block > div:nth-child(4){
+  @extend %box-backgound,%box-border-radius;
+  width: 100%;
+  margin-top: 1%;
+  height: 400px;
+}
+.box-block > div:nth-child(5){
+  @extend %box-backgound,%box-border-radius;
+  width: 100%;
+  margin-top: 1%;
+  height: 200px;
+}
+.box-block > div:nth-child(6){
+  @extend %box-backgound,%box-border-radius;
+  width: 49%;
+  margin-right: 1%;
+  margin-top: 1%;
+  height: 200px
+}
+.box-block > div:nth-child(7){
+  @extend %box-backgound,%box-border-radius;
+  width: 50%;
+  margin-top: 1%;
+  height: 200px
+}
+
