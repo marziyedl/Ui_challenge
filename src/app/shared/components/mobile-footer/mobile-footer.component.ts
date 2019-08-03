@@ -14,12 +14,10 @@ showSeacondMenu:boolean =false;
   ngOnInit() {
   }
 toggleFirstMenu(){
-  debugger;
   this.showFirstMenu = !this.showFirstMenu;
 
 }
 toggleSecondMenu(){
-  debugger;
   this.showSeacondMenu = !this.showSeacondMenu;
 
 }
